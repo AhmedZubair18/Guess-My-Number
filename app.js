@@ -18,6 +18,7 @@ level.innerHTML = leval
 function check(){
    if(userInput.value > 20 || userInput.value < 1){
     replaceable.innerHTML = "Please enter a number between 1 and 20"
+    return
    }
    if(leval > 1){
     level2Selection--
