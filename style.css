@@ -1,0 +1,145 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width:700px;
+    height: 400px;
+    background-color:black;
+    border-radius: 5px;
+}
+button{
+    color:black;
+    background-color: white;
+    width: 70px;
+    height: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.hr{
+    width: 500px;
+    height: 5px;
+    background-color:white;
+}
+.question{
+    width:70px;
+    height: 50px;
+    background-color:white;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    bottom: 56px;
+}
+.mains{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.heading{
+    color:white;
+}
+.btns{
+    padding: 10px;
+}
+.btn{
+    position: relative;
+    left: 25px;
+    top: 20px;
+}
+.btn:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+input{
+    width: 120px;
+    height: 50px;
+    font-size: xx-large;
+    text-align: center;
+    border: 2px solid white;
+}
+.heading1{
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 100px;
+    left: 140px;
+}
+.heading2{
+    padding: 10px;
+}
+p{
+    padding: 5px;
+}
+.again:hover{
+    cursor: pointer;
+    background-color: gray;
+}
+@media (max-width:768px){
+    .mains{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{
+        .box{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+    .btns{
+        margin-left: 20px;
+    }
+}
+@media(max-width:500px){
+    .btns{
+        margin-left: 20px;
+    }
+    .main{
+        width:100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .heading1{
+        margin-right: auto ;
+    }
+}
+@media (max-width:470px){
+    .main{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .heading1{
+       margin-right: 50px;
+    }
+}
+@media(max-width:402px){
+    .main{
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 auto;
+    }
+    .heading1{
+        margin-right: 100px;
+    }
+}
